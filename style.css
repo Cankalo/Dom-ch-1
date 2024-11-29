@@ -1,0 +1,57 @@
+body {
+    padding-left: 11rem;
+    font-family: Georgia, "Times New Roman",
+        Times, serif;
+    background-color: #3A656B;
+    color:white;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+ul.navbar li {
+    background: #63AEB8;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+    border-radius: 5px;
+}
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+.main-content{
+    background-color: #C8EAEE;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#colorBox{
+    background-color: white;
+    max-width: 200px;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.colorInput{
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.colorInput label{
+    display: block;
+}
+

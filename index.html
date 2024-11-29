@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript - Eindopdracht</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <!-- Navigatie-menu -->
+    <ul class="navbar">
+        <li><a href="opdracht1.html">Cemals first Dom challenge</a></li>
+    </ul>
+    <h1>renkler</h1>
+    <h2>deger alip kullanma</h2>
+   
+    <div class="main-content">
+        <div>
+            <div class="colorInput">
+                <label for="red"><span style="color: red;">red</span></label>
+                <input type="number" min="0" max="255" id="red" />
+            </div>
+            <div class="colorInput">
+                <label for="green"><span style="color: green;">green</span></label>
+                <input type="number" min="0" max="255" id="green" />
+            </div>
+            <div class="colorInput">
+                <label for="blue"><span style="color: blue;">blue</span></label>
+                <input type="number" min="0" max="255" id="blue" />
+            </div>
+            <button onclick="changeColor()" style="margin-left:50px;margin-top:20px;">Renk degistir</button>
+        </div>
+        <div id="colorBox">
+
+        </div>
+    </div>
+</body>
+
+</html>
